@@ -1,6 +1,6 @@
-<img width="1527" height="709" alt="image" src="https://github.com/user-attachments/assets/0f34c598-b448-47cf-8b63-c5946ef99998" />
 
 Lorus is a Discord bot that uses OpenAI to interact and chat with server members. It is designed to make interactions more dynamic, intelligent, and fun.
+<img width="1535" height="932" alt="image" src="https://github.com/user-attachments/assets/f31e9202-1169-48d1-949b-5a063890aeee" />
 
 Features
 
