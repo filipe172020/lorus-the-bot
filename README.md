@@ -1,4 +1,4 @@
-#Lorus
+Lorus
 
 Lorus is a Discord bot that uses OpenAI to interact and chat with server members. It is designed to make interactions more dynamic, intelligent, and fun.
 
