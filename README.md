@@ -72,8 +72,6 @@ Contributions are welcome! Feel free to:
 
 This project is **open-source** and free to use or modify.  
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/filipe172020/lorus?style=social)](https://github.com/filipe172020/lorus)
-
 ---
 
 ## Optional Enhancements (for a more professional README)
