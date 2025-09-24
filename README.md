@@ -72,7 +72,7 @@ Contributions are welcome! Feel free to:
 
 This project is **open-source** and free to use or modify.  
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/your-username/lorus?style=social)](https://github.com/your-username/lorus)
+[![GitHub Repo stars](https://img.shields.io/github/stars/filipe172020/lorus?style=social)](https://github.com/your-username/lorus)
 
 ---
 
