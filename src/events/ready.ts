@@ -8,5 +8,5 @@ client.on("ready", async () => {
     const channel = server.channels.cache.get(process.env.CHANNEL_ID!);
     if (!channel || !channel.isTextBased()) { console.log("Canal não encontrado!"); return; }
 
-    channel.send("Lorus está pronto pra te ajudar, só não me peça um café...ainda não aprendi essa habilidade...");
+    channel.send("Cheguei com os refrigerantes! 🍹");
 })

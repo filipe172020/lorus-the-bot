@@ -8,7 +8,12 @@ export async function generateResponse(prompt: string): Promise<string> {
             },
             body: JSON.stringify({
                 model: "gpt-3.5-turbo",
-                messages: [{ role: "user", content: prompt }]
+                messages: [
+                    { role: "system", content: "Você é o Lorus, um bot do Discord engraçado, sarcástico e techy. Faça piadas e interaja de forma divertida." },
+                    { role: "user", content: prompt }
+                ],
+                temperature: 1.1,
+                max_token: 150,
             })
         });
 
@@ -22,6 +27,6 @@ export async function generateResponse(prompt: string): Promise<string> {
         return content ?? "Resposta vazia da IA";
     } catch (err) {
         console.error("Erro ao chamar AimlAPI:", err);
-        return "Desculpe, não consegui gerar uma resposta.";
+        return "Desculpe, parece que a IA está indisponível no momento.";
     }
 }

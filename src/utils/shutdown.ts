@@ -6,12 +6,6 @@ process.on("SIGINT", async () => {
     process.exit(0);
 });
 
-process.on("SIGTERM", async () => {
-    console.log("👋 Bot sendo desligado (Heroku/Docker/Server kill).");
-    await sendShutdownMessage();
-    process.exit(0);
-});
-
 export async function sendShutdownMessage() {
     try {
         const server = client.guilds.cache.get(process.env.GUILD_ID!);
