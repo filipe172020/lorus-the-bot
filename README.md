@@ -24,7 +24,8 @@ It brings **intelligent, dynamic, and engaging conversations** to your Discord s
 
 - [Discord.js](https://discord.js.org/) – Integration with Discord servers.  
 - [OpenAI API](https://openai.com/api) – Provides intelligent responses.  
-- Node.js – Runtime environment.  
+- Node.js – Runtime environment.
+- Docker and Prisma for memory and cache.
 - TypeScript – Strongly typed code for maintainability and scalability.  
 
 ---
