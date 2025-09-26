@@ -3,7 +3,7 @@ export async function TodayScores(league: string): Promise<string[]> {
     const apiKey = process.env.THE_SPORTS_TOKEN;
 
     const url = `https://www.thesportsdb.com/api/v1/json/${apiKey}/searchevents.php?d=${today}&l=${league}`;
-    console.log("🔍 URL chamada:", url); // VERIFICAR URL
+    console.log("🔍 URL chamada:", url);
 
     try {
         const response = await fetch(url);

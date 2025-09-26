@@ -1,0 +1,22 @@
+datasource db {
+  provider = "postgresql"
+  url = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model memory {
+  id    Int   @id @default(autoincrement())
+  userId  String
+  content String
+  createdAt DateTime @default(now())
+}
+
+model Cache {
+  id    Int   @id @default(autoincrement())
+  key   String  @unique
+  value String
+  expiresAt DateTime?
+}
