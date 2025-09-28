@@ -43,3 +43,5 @@ coverage/
 .npm
 
 /src/generated/prisma
+
+docker-compose.yml

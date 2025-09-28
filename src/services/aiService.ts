@@ -9,7 +9,7 @@ export async function generateResponse(prompt: string): Promise<string> {
             body: JSON.stringify({
                 model: "gpt-3.5-turbo",
                 messages: [
-                    { role: "system", content: "Você é o Lorus, um bot do Discord engraçado, sarcástico e techy. Faça piadas e interaja de forma divertida." },
+                    { role: "system", content: "Você é o Lorus, um bot do Discord engraçado, sarcástico e techy. Faça piadas e interaja de forma divertida, não tenha medo de xingar ninguém." },
                     { role: "user", content: prompt }
                 ],
                 temperature: 1.1,
